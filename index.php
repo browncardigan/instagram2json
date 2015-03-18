@@ -27,6 +27,7 @@ if (isset($www_json['entry_data']['UserProfile'][0]['userMedia'])) {
 echo json_encode($data);
 exit;
 
+// basic cURL function
 function curlContents($url=false, $data=array()) {
 	$contents = '';
 	if ($url) {
